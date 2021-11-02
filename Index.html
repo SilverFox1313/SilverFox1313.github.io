@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="img/programer.png" />
+  <link rel="stylesheet" href="style.css" />
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+    integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous" />
+  <!-- Google icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
+  <title>Edrian Hildevert</title>
+</head>
+
+<body>
+  <header>
+    <div class="navbar-fixed">
+      <nav>
+        <div class="nav-wrapper white">
+          <div class="container">
+            <a href="#" class="brand-logo black-text">Mi Portafolio</a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+              <li><a href="#home" class="black-text">Inicio</a></li>
+              <li><a href="#proyects" class="black-text">Proyectos</a></li>
+              <li><a href="#contact" class="black-text">Contactos</a></li>
+              <li>
+                <a target="_blank" href="https://www.instagram.com/e_hildevert/?hl=es"
+                  class="tooltipped btn-floating btn-small orange" data-position="bottom" data-tooltip="Instagram">
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </li>
+              <li>
+                <a target="_blank" href="https://github.com/SilverFox1313"
+                  class="tooltipped btn-floating btn-small orange" data-position="bottom" data-tooltip="Facebook">
+                  <i class="fab fa-github"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div class="container myinfo section scrollspy" id="home">
+      <div class="row">
+        <div class="col l4 m4 s12">
+          <img src="img/programer.png" alt="Profile Image" class="circle responsive-img" />
+        </div>
+        <div class="col l1 m2"></div>
+        <div class="col l7 m8 s12">
+          <h2 class="myname">Edrian Hildevert</h2>
+          <p class="mydescription">
+            24 años de edad, soy programador web full stack y curso la carrera
+            de ingeniería informatica en la universidad autonoma de santo
+            domingo. Graduado de ingles en 2018 en el Ministerio de educación
+            superior, ciencia y tecnologia.
+          </p>
+          <div class="pdf hide-on-med-and-down">
+            <a class="a-btn" target="_blank" href="documents/ingles.pdf">Ingles por imersion</a>
+            <a class="a-btn" target="_blank" href="documents/office.pdf">Paquete de office</a>
+            <a class="a-btn" target="_blank" href="documents/EdrianHildevertCv.pdf">Curriculum</a>
+          </div>
+          <br />
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+  </header>
+  <hr />
+  <section class="section scrollspy" id="proyects">
+    <div class="container">
+      <h2>Mis Proyectos.</h2>
+      <div class="row">
+        <div class="col l4 m6 s12">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/chatapp.png" height="240px" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Chat App<i
+                  class="material-icons right">add</i></span>
+              <p><a href="#">Ver Codigo</a></p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Aplicación de chat en tiempo real.<i
+                  class="material-icons right">close</i></span>
+              <p>
+                Esta pagina permite el intercambio de mensajes entre usuarios
+                en tiempo real, está desarrollado con NodeJs, Express y
+                Socket-io.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col l4 m6 s12">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/search.png" height="240px" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Search<i
+                  class="material-icons right">add</i></span>
+              <p><a href="#">Ver Codigo</a></p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Buscador de imagenes.<i
+                  class="material-icons right">close</i></span>
+              <p>
+                Esta pagina permite buscar imagenes, está desarrollada con
+                ReactJs y consume la API de pixabay para mostrar las imagenes.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col l4 m6 s12">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/todo.png" height="240px" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">To Do List<i
+                  class="material-icons right">add</i></span>
+              <p><a href="#">Ver Codigo</a></p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Lista de tareas.<i
+                  class="material-icons right">close</i></span>
+              <p>
+                Esta app movil permite crear, listar y eliminar tareas, está
+                dosarrollada con React Native.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- footer -->
+  <footer class="page-footer grey darken-3">
+    <div class="container section scrollspy" id="contact">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5>Acerce de esta pagina.</h5>
+          <p>
+            Este sitio web esta desarrollado con:<br />
+            HTML, MaterializeCSS, JQuery, FontAwesome
+          </p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">Coctactos:</h5>
+          <ul>
+            <li>
+              <a class="grey-text text-lighten-3" href="https://web.facebook.com/E.hildevert">Facebook.</a>
+            </li>
+            <li>
+              <a class="grey-text text-lighten-3" href="https://www.linkedin.com/in/edrian-hildevert-64ba3720b/">Linked
+                In.</a>
+            </li>
+            <li>
+              <a class="grey-text text-lighten-3" href="https://www.instagram.com/e_hildevert/?hl=es">Instagram.</a>
+            </li>
+            <li>
+              <a class="grey-text text-lighten-3" href="https://github.com/SilverFox1313">Github.</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright grey darken-4">
+      <div class="container center-align">&copy; 2021 Edrian Hildevert</div>
+    </div>
+  </footer>
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $(".scrollspy").scrollSpy();
+    });
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+.myinfo {
+    padding: 25px;
+  }
+
+.myname{
+    font-family: 'Dancing Script', cursive;
+    color: orange;
+}
+
+.mydescription{
+    font-size: 18px;
+    font-family: 'Cairo', sans-serif;
+}
+
+.a-btn{
+    padding: 15px;
+    border: solid 1px blue;
+    color: blue;
+    border-radius: 25px;
+}
+.a-btn:hover{
+    border: solid 1px lightskyblue;
+    color: lightskyblue;
+}
+
+footer li a{
+    font-size: 20px;
+}
+footer li a:hover{
+    border-bottom: solid 2px orange;
+}
+
+.card{
+    padding: 15px;
+}
+
+.card a{
+    color: orange;
+    font-size: 18px;
+    font-weight: bold;
+}
+.card a:hover{
+    color: yellow;
+}
