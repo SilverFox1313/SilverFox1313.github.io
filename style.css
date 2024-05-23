@@ -10,7 +10,7 @@
 }
 
 .mydescription{
-    font-size: 18px;
+    font-size: 16px;
     font-family: 'Cairo', sans-serif;
 }
 
@@ -25,6 +25,17 @@
     color: lightskyblue;
 }
 
+hr {
+    border: 1px solid rgb(245, 241, 241);
+}
+
+.projects {
+    color: orange;
+}
+.projects:hover {
+    color: rgb(253, 204, 113);
+}
+
 footer li a{
     font-size: 20px;
 }
@@ -34,6 +45,11 @@ footer li a:hover{
 
 .card{
     padding: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover{
+    transform: scale(1.0) rotate(-3deg);
+    box-shadow: 0 6px 10px rgba(255, 102, 0, 0.2);
 }
 
 .card a{
