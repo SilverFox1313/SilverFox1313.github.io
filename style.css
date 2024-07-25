@@ -19,6 +19,7 @@
     border: solid 1px blue;
     color: blue;
     border-radius: 25px;
+    margin-left: 10px;
 }
 .a-btn:hover{
     border: solid 1px lightskyblue;
@@ -59,4 +60,8 @@ footer li a:hover{
 }
 .card a:hover{
     color: yellow;
+}
+
+.site {
+    margin-left: 10px;
 }
